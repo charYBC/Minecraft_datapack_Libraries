@@ -7,5 +7,5 @@ scoreboard players set @s windcharge_motion.setplayerxdirection 0
 scoreboard players set @s windcharge_motion.setplayerxdirection 0
 
 advancement grant @s only manipulation:before_explosion
-advancement grant @s only manipulation:before_explosion
+advancement grant @s only manipulation:after_explosion
 team join manipulationentity
