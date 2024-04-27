@@ -10,7 +10,7 @@ scoreboard players set min windcharge_motion.setplayerxdirection -40000
 
 
 
-use these to set the motion: (remember to run as player)
+use these to set the motion: (remember to run as player)       
 scoreboard players set @s windcharge_motion.playermotion.x ??        
 scoreboard players set @s windcharge_motion.playermotion.y ??      
 scoreboard players set @s windcharge_motion.playermotion.x ??      
