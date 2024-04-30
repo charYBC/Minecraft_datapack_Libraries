@@ -1,1 +1,0 @@
-$execute store success score success index run data get storage custom_enchant:storage Temp.enchantments[$(index)]
