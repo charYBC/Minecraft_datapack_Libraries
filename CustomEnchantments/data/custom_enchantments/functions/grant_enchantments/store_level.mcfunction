@@ -1,0 +1,1 @@
+$data modify storage custom_enchant:storage Temp.level set from storage custom_enchant:storage EnchantData.levels[$(current_level)]

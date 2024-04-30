@@ -1,0 +1,16 @@
+[
+  {
+    "function": "minecraft:set_custom_data",
+    "tag": "{custom_enchantments:[]}"
+  },
+  {
+    "function": "minecraft:set_custom_data",
+    "tag": "{hascustomenchant:0}"
+  },
+  {
+    "function": "minecraft:set_components",
+    "components": {
+      "minecraft:lore": []
+    }
+  }
+]

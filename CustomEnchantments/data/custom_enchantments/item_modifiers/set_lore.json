@@ -1,0 +1,23 @@
+[
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      {
+        "nbt": "Temp.current_enchantment",
+        "storage": "custom_enchant:storage",
+        "color": "gray",
+        "italic": false,
+        "extra": [
+          {
+            "nbt": "Temp.level",
+            "storage": "custom_enchant:storage",
+            "color": "gray",
+            "italic": false
+          }
+        ]
+      }
+    ],
+    "mode": "insert"
+  }
+]
