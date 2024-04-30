@@ -20,22 +20,22 @@ when values are set to the max there is only still (2**0.5)/2 of the full force
 
 CustomEnchantments:
 
-use this to initialize storage:
+use this to initialize storage:    
 data modify storage custom_enchant:storage EnchantData set value {index:0,tools:[],enchantments:[],probabilities:[],levels:[""," I"," II"," III"," IV"," V"," VI","  VII"," VIII"," IX"," X"],levelranges:[]} 
 
-Add tools (a tool which could have custom enchant):
+Add tools (a tool which could have custom enchant):    
 data modify storage custom_enchant:storage EnchantData.tools append value "???(for example it could be diamond_sword)"
 
-add enchantments for the tool:
+add enchantments for the tool:    
 data modify storage custom_enchant:storage EnchantData.enchantments append value ["enchant1","enchant2","enchant3"...]
 
-add probabilities for the corresponding enchantment:
+add probabilities for the corresponding enchantment:    
 data modify storage custom_enchant:storage EnchantData.probabilities append value [??,??,??...]
 
-add levelranges (max level of the enchantment, it needs to be smaller than 10 for now, you can add more items into the levels to have more levelranges):
+add levelranges (max level of the enchantment, it needs to be smaller than 10 for now, you can add more items into the levels to have more levelranges):     
 data modify storage custom_enchant:storage EnchantData.levelranges append value [??,??,??...]
 
-you can modify them afterwards also by doing stuff like this 
-data modify storage custom_enchant:storage EnchantData.enchantments[?][?] set value "???"
-or 
-data modify storage custom_enchant:storage EnchantData.enchantments[?] append value "???"
+you can modify them afterwards also by doing stuff like this     
+data modify storage custom_enchant:storage EnchantData.enchantments[?][?] set value "???"    
+or     
+data modify storage custom_enchant:storage EnchantData.enchantments[?] append value "???"    
