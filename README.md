@@ -29,7 +29,7 @@ data modify storage custom_enchant:storage EnchantData.tools append value "???(f
 add enchantments for the tool:    
 data modify storage custom_enchant:storage EnchantData.enchantments append value ["enchant1","enchant2","enchant3"...]
 
-add probabilities for the corresponding enchantment:    
+add probabilities of getting the enchantment(out of 100) for the corresponding enchantment:    
 data modify storage custom_enchant:storage EnchantData.probabilities append value [??,??,??...]
 
 add levelranges (max level of the enchantment, it needs to be smaller than 10 for now, you can add more items into the levels to have more levelranges):     
