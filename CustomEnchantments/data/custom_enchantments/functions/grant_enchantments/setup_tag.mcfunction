@@ -1,0 +1,1 @@
+$data modify storage custom_enchant:storage Temp.current_tag set value {$(current_enchantment):$(current_level)}
