@@ -39,3 +39,9 @@ you can modify them afterwards also by doing stuff like this
 data modify storage custom_enchant:storage EnchantData.enchantments[?][?] set value "???"    
 or     
 data modify storage custom_enchant:storage EnchantData.enchantments[?] append value "???"    
+
+
+after the setup is ready, head into the enchanting table and enchant like you would normally after that pick the item up with your cursor and drop it back to your inventory you should get the enchantments added.  
+the pack does not provided a way to actually add functionality to the enchantments, but it does add a tag (custom data) in the form of {enchantmentname:level}
+
+the custom enchantments won't be removed through grindstone, instead put the both grindstone and the weapon into the player's crafting slot to remove custom enchantments
