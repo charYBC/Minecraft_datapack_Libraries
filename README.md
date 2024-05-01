@@ -13,7 +13,7 @@ scoreboard players set min windcharge_motion.setplayerxdirection -40000
 use these to set the motion: (remember to run as player)       
 scoreboard players set @s windcharge_motion.playermotion.x ??        
 scoreboard players set @s windcharge_motion.playermotion.y ??      
-scoreboard players set @s windcharge_motion.playermotion.x ??      
+scoreboard players set @s windcharge_motion.playermotion.z ??      
 function manipulation:integrated_functions/set_player_motion
 
 when values are set to the max there is only still (2**0.5)/2 of the full force
