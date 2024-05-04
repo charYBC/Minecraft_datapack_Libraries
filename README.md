@@ -18,7 +18,7 @@ function manipulation:integrated_functions/set_player_motion
 
 when values are set to the max there is only still (2**0.5)/2 of the full force
 
-CustomEnchantments:
+CustomEnchantments: (this creation now renders useless after 24w18a as you can add proper custom enchantments in the new version)
 
 use this to initialize storage:    
 data modify storage custom_enchant:storage EnchantData set value {index:0,tools:["enchanted_book"],enchantments:[[]],probabilities:[[]],levels:[""," I"," II"," III"," IV"," V"," VI","  VII"," VIII"," IX"," X"],levelranges:[[]]} 
