@@ -1,0 +1,1 @@
+$data modify storage custom_enchant:storage EnchantData.temp_level_original_symbol set from storage custom_enchant:storage EnchantData.levels[$(temp_original_level)]

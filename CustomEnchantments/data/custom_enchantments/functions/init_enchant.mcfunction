@@ -1,0 +1,3 @@
+$item replace entity @s container.0 from entity @p player.crafting.$(slot)
+$execute if items entity @s container.0 minecraft:enchanted_book[minecraft:custom_data~{hascustomenchant:1}] store success score success custom_enchantments run data get entity @s Items[{Slot:0b}].components."minecraft:custom_data".custom_enchantments[].$(temp_ench)
+$item replace entity @s container.1 from entity @p player.crafting.$(weapon_slot)
