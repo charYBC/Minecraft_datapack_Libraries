@@ -18,6 +18,13 @@ function manipulation:integrated_functions/set_player_motion
 
 when values are set to the max there is only still (2**0.5)/2 of the full force
 
+For Version two of WindChargeMotion here are the several changes:
+1. no longer unlocks monster hunter advancement
+2. it is now much more efficient as it no longer uses multiple vectors to get one vector, and uses the attribute explosion_resistance instead.
+3. added new integrated functions vector_launch and launch_facing we all uses the power scoreboard to adjust the strength. (use x_facing and y_facing scoreboard to change the direction of launch for vector launch function)
+Note the max power is 10000 and is in percentage. 10000 means 100% 9999 means 99.99%. Facing are also set with a factor 0.0001 which means to get 90 you will have to times your angle by 10000 and have 900000. The same goes for x, y and z motion which also max out at 10000.
+
+
 CustomEnchantments: (this creation now renders useless after 24w18a as you can add proper custom enchantments in the new version)
 
 use this to initialize storage:    
