@@ -1,12 +1,8 @@
 WindChargeMotion: 
 No need for resource pack, only edit the player you want!!!!! very clean has delicate control, but lacks complex math. How to use: 
 
-based on your computer's performance, use this to set the maximum strength output:
-scoreboard players set @s windcharge_motion.launch_strength ?? 
-
-use these to change the delicacy:   
-scoreboard players set max windcharge_motion.setplayerxdirection 40000       
-scoreboard players set min windcharge_motion.setplayerxdirection -40000      
+based on your computer's performance, use this to set the maximum launch output:
+scoreboard players set @s windcharge_motion.launch_strength ??  
 
 
 
