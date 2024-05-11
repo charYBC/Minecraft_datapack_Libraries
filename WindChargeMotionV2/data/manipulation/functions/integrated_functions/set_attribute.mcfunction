@@ -1,0 +1,2 @@
+execute store result score @s windcharge_motion.explosion_resistance run attribute @s minecraft:generic.explosion_knockback_resistance base get 100000
+$attribute @s minecraft:generic.explosion_knockback_resistance base set $(reduction)
