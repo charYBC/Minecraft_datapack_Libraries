@@ -1,6 +1,0 @@
-{
-  "pack": {
-    "pack_format": 20,
-    "description": "WindChargePlayerMotionLibrary This version uses the latest snapshot 24w19a, its much more efficient that the previous version, and does not use multiple vector to obtain one vector"
-  }
-}
